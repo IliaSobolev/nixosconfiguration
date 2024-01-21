@@ -10,7 +10,8 @@
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  boot.supportedFilesystems = [ "bcachefs" ];
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   time.timeZone = "Europe/Amsterdam";
 
   nixpkgs.config.allowUnfree = true;   
