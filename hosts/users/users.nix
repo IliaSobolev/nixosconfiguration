@@ -3,6 +3,6 @@
     isNormalUser = true;
     home = "/home/bebrazawr";
     description = "bebrazawr";
-    extraGroups = ["networkmanager" "wheel" ]; 
+    extraGroups = ["networkmanager" "wheel" "docker" ]; 
   };
 }

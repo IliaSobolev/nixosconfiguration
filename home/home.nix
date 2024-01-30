@@ -22,11 +22,11 @@
     slurp
     swappy
     spotify
-    nodejs
     lm_sensors
     termius
     imv
     chromium
+    wf-recorder
    ];
    stateVersion = "23.11";
  };

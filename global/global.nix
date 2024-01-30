@@ -13,5 +13,7 @@
     htop
     unzip
     brillo
+    xdg-utils
+    jq
   ];
 }
